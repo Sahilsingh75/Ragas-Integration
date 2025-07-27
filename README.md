@@ -47,14 +47,17 @@ ragas-evaluation/
 
 ## Metrics Example
 ```
-ID	Faithfulness	Answer Relevancy	Context Precision
-abc123	0.82	0.94	1.0
-def456	0.23	0.87	0.95
+ID	      Faithfulness	Answer Relevancy	Context Precision
+abc123	0.82	         0.94	            1.0
+def456	0.23	         0.87	            0.95
 ```
+
 ## Observations
+```
 -Faithfulness was lower on some examples due to hallucinated content.
 -Context Precision remained high, indicating relevant context was consistently retrieved.
 -Answer Relevancy averaged above 0.8, showing good alignment with questions.
+```
 
 ## License
 This project is for research/demo purposes only. OpenAI and RAGAs are trademarks of their respective owners.
