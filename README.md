@@ -46,10 +46,11 @@ ragas-evaluation/
   Open ragas_integration.ipynb and execute all cells, or run the script version.
 
 ## Metrics Example
+```
 ID	Faithfulness	Answer Relevancy	Context Precision
 abc123	0.82	0.94	1.0
 def456	0.23	0.87	0.95
-
+```
 ## Observations
 -Faithfulness was lower on some examples due to hallucinated content.
 -Context Precision remained high, indicating relevant context was consistently retrieved.
