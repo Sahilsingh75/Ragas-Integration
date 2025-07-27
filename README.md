@@ -9,15 +9,15 @@ This project uses [RAGAs (Retrieval-Augmented Generation Assessment)](https://gi
 ---
 
 ## Project Structure
-
-ragas-evaluation/
-├── logs.json # Raw input dataset for evaluation
-├── ragas_output.json # Final RAGAs scores (JSON format)
-├── ragas_output.csv # Same scores in spreadsheet format
-├── ragas_eval.ipynb # Jupyter notebook with full pipeline
-├── evaluation_report.docx # Summary report of evaluation
-└── README.md
-
+```
+   ragas-evaluation/
+   ├── logs.json # Raw input dataset for evaluation
+   ├── ragas_output.json # Final RAGAs scores (JSON format)
+   ├── ragas_output.csv # Same scores in spreadsheet format
+   ├── ragas_eval.ipynb # Jupyter notebook with full pipeline
+   ├── evaluation_report.docx # Summary report of evaluation
+   └── README.md
+```
 
 ---
 
